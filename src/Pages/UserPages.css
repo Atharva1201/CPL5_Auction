@@ -1,0 +1,131 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.headerImg{
+    height: 150px !important;
+}
+
+
+.subimg{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    margin: 0px auto;
+    margin-top: -99px;
+    display: block;
+    position: relative;
+    z-index: 1050;
+}
+.admincontainer{
+    background-color: #fff;
+float:center;
+  
+}
+.card-content{
+    background-color: #914823!important;
+    color: #fff;
+}
+
+.progress{
+    /* height: 1px; */
+    /* background-color: #914823 !important; */
+}
+
+.progress > .progress-bar{
+    background-color: #ffce39
+}
+
+.shadowcustom {
+    border: 1px solid rgba(0,0,0,.125) !important; 
+    border-radius: 5px;
+    box-shadow: 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2) !important
+}
+
+.unsoldplayer .proImage{
+    width: 60px;
+    height: 60px;
+    /* border-radius: 50%; */
+}
+
+.proImage{
+    width: 48px;
+    height: 50px;
+    border-radius: 50%;
+}
+.nav-tabs .nav-link{
+    color: #fff;
+    /* background-color: darkgoldenrod; */
+    margin-bottom: 0px !important;
+    border: none !important;
+    font-weight: bold;
+    border: 1px solid !important;
+    border-bottom: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    color:  #495057 !important;
+    border: none !important;
+    margin-bottom: 0px !important;
+    font-weight: bold;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color: #fff !important;
+    border: 1px solid !important;
+    border-bottom: none !important;
+}
+.curd-table{
+    background-color: #fff !important;
+    border: 1px solid !important;
+    border-color: goldenrod !important;
+    border-bottom-color: goldenrod !important;
+    /* border-top-color: goldenrod; */
+
+}
+.required .form-label:after {
+    content: "*";
+    color: #E93535;
+    margin-left: 3px;
+  }
+  
+.tab-teams.nav-tabs .nav-item .nav-link {
+    color: #fff;
+    background-color: transparent;
+    border-color: #dee2e6 #dee2e6 #ffc107;
+}
+.tab-teams.nav-tabs .nav-item.show .nav-link, 
+.tab-teams.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #dee2e6 #dee2e6 #ffc107;
+}
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: goldenrod !important;
+}
+
+@media (max-width: 575.98px) { 
+    .responsiveLogo{
+        width: 350px;
+    text-align: center;
+    display: inline-flex;
+    /* margin: 0px; */
+    /* text-align: center; */
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    }
+ }
+
+ .main-wrapper {
+    min-height: 100vh;
+ }

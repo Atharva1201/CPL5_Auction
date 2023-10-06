@@ -1,6 +1,9 @@
-.App {
-  text-align: center;
+body {
+  background: url('/public/assets/images/lawn1.avif');
+  background-size: full-screen;
 }
+
+
 
 .App-logo {
   height: 40vmin;
