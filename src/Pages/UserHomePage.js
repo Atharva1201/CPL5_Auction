@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import './UserPages.css';
 import { Container, Row, Tabs, Button } from 'react-bootstrap';
 import { Tab } from 'bootstrap';
+import {Link} from 'react-router-dom';
 // import groundImage from '../../src/Photo/groundImage.png';
 const UserHomePage = () => {
   const data = [
@@ -111,7 +112,8 @@ const UserHomePage = () => {
           </a>
         </a>
         <div className='text-end'>
-          <Button variant='btn btn-warning'>Admin Login</Button>
+          {/* <Button variant='btn btn-warning'>Admin Login</Button> */}
+          <Link to="/adminlogin" className='btn btn-warning'>Admin Login</Link>
         </div>
       </div>
       <Tabs
@@ -193,7 +195,7 @@ const UserHomePage = () => {
                   </div>
                   <div>
                     {/* <div>Athrav</div> */}
-                    <div className='fw-bold'>Atharva Mane</div>
+                    <div className='fw-bold'>Atharva Mane</div> 
                   </div>
                 </div>
               </div>

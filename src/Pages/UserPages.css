@@ -29,7 +29,9 @@ body{
 .admincontainer{
     background-color: #fff;
 float:center;
-  
+}
+.bgwhite{
+    background-color: #fff;
 }
 .card-content{
     background-color: #914823!important;
@@ -129,3 +131,4 @@ float:center;
  .main-wrapper {
     min-height: 100vh;
  }
+ 

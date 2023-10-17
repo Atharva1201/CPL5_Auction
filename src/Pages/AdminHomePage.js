@@ -70,11 +70,11 @@ function AdminHomePage() {
             <thead>
               <tr>
                 <th className=''>ID</th>
-                <th>Player Name</th>
-                <th>Team Name</th>
-                <th>Price</th>
-                <th>Status</th>
-                <th>buttons</th>
+                <th classname='text-center'>Player Name</th>
+                <th classname='text-center'>Team Name</th>
+                <th classname='text-center'>Price</th>
+                <th className='text-center'>Status</th>
+                <th className='text-center'>buttons</th>
               </tr>
             </thead>
             <tbody>
@@ -88,7 +88,7 @@ function AdminHomePage() {
                   <button
                     varient='primary'
                     className='btn btn-warning'
-                    style={{ borderRadius: '4px',}}
+                    style={{ borderRadius: '4px', padding:'3px', margin:'1px'}}
                     size='lg'
                   >
                     Mark Unsold
@@ -96,14 +96,14 @@ function AdminHomePage() {
                   <button
                     varient='primary'
                     className='btn btn-warning'
-                    style={{ borderRadius: '4px' }}
+                    style={{ borderRadius: '4px', padding:'3px', margin:'1px' }}
                   >
                     Sell
                   </button>{' '}
                   <button
                     varient='primary'
                     className='btn btn-warning'
-                    style={{ borderRadius: '4px' }}
+                    style={{ borderRadius: '4px', padding:'3px', margin:'1px' }}
                   >
                     Delete
                   </button>{' '}
