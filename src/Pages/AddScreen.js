@@ -2,7 +2,10 @@ import React from 'react';
 import { Form, Formik } from 'formik';
 import { Button } from 'react-bootstrap';
 const addScreen = () => {
-  function resetFile() {}
+    const playerSubmit = ()=>{
+
+    }
+//   function resetFile() {}
   return (
     <>
       <div className='bgwhite mt-5 ms-6 me-6'>
@@ -10,7 +13,7 @@ const addScreen = () => {
         <Formik>
           <Form>
               <div className='row'>
-                <div className='ms-2 col-4 p-3 required'>
+                <div className='ms-3 col-3 p-2 required'>
                   <label htmlFor='fullName' className='form-label required'>
                     Player name
                   </label>
@@ -32,7 +35,7 @@ const addScreen = () => {
                   </div>
                 </div>
 
-                <div className='sm-2 col-4 p-3 required'>
+                <div className='sm-2 col-3 p-2 required'>
                   <label htmlFor='file' className='form-label required'>
                     Player Image
                   </label>
@@ -43,6 +46,20 @@ const addScreen = () => {
                     name='avatar'
                     accept='image/png, image/jpeg, image/pdf'
                   />
+                </div>
+                <div className='sm-2 col-3 p-2 required'>
+                  <label htmlFor='file' className='form-label required'>
+                    Player Category
+                  </label>
+                  <input
+                    type='text'
+                    className='form-control'
+                    id='avatar'
+                    name='avatar'
+                    placeholder='Please enter player category'
+                    // value={fullName}
+                    autoComplete='off'
+                    aria-autocomplete='none'                  />
                 </div>
                 </div>
 
@@ -67,10 +84,12 @@ const addScreen = () => {
                     /> */}
                 {/* </div> */}
               {/* </div> */}
-              <div className=' col-3 p-2'>
+              <div className='col-2 p-2'>
                 <Button
+                 type='button'
                   variant='btn btn-warning mx-auto'
                   style={{ fontSize: '15px', padding: '4px 40px' }}
+                  onClick={playerSubmit}
                 >
                   Submit
                 </Button>
