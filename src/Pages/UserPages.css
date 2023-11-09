@@ -82,9 +82,8 @@ float:center;
 }
 
 .nav-link:focus, .nav-link:hover{
-    color: #fff !important;
-    border: 1px solid !important;
-    border-bottom: none !important;
+    font-weight: 500;
+    overflow: hidden;
 }
 .curd-table{
     background-color: #fff !important;

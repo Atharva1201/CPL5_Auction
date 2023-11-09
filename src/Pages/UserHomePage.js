@@ -1,11 +1,13 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import './UserPages.css';
-import { Container, Row, Tabs, Button } from 'react-bootstrap';
+import { Container, Row, Tabs, Button, OverlayTrigger } from 'react-bootstrap';
 import { Tab } from 'bootstrap';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { Tooltip } from 'react-bootstrap';
 // import groundImage from '../../src/Photo/groundImage.png';
 const UserHomePage = () => {
+  const tooltipUnsold = <Tooltip id='tooltip'>Unsold Player List</Tooltip>;
   const data = [
     {
       headerimg: 'http://raneonkar.com/cpl/auction4.0/img/conan_banner.jpeg',
@@ -101,8 +103,8 @@ const UserHomePage = () => {
   return (
     <div className='px-2'>
       <div className='text-center  mt-3'>
-        <a href='https://fontmeme.com/calligraphy-fonts/'>
-          <a href='https://fontmeme.com/calligraphy-fonts/'>
+        <a href='#'>
+          <a href='#'>
             <img
               src='https://fontmeme.com/permalink/230927/749938cdb63644fb61a7e28676c598a3.png'
               alt='calligraphy-fonts'
@@ -111,10 +113,13 @@ const UserHomePage = () => {
             />
           </a>
         </a>
-        <div className='text-end'>
-          {/* <Button variant='btn btn-warning'>Admin Login</Button> */}
-          <Link to="/adminlogin" className='btn btn-warning'>Admin Login</Link>
-        </div>
+        {/* <div className='text-end'>
+          <OverlayTrigger placement='top' overlay={tooltipUnsold}>
+            <Link to='/adminlogin' className='btn btn-warning'>
+              Admin Login
+            </Link>
+          </OverlayTrigger>
+        </div> */}
       </div>
       <Tabs
         defaultActiveKey='teamview'
@@ -166,6 +171,7 @@ const UserHomePage = () => {
             ))}
           </div>
         </Tab>
+
         <Tab eventKey='unsoldplayers' title='Unsold Players'>
           <div className='row'>
             <div className='col-lg-2 unsoldplayer'>
@@ -189,13 +195,13 @@ const UserHomePage = () => {
                 <div className='text-center gap-2'>
                   <div>
                     <img
-                      src= 'https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
                       className='proImage'
                     />
                   </div>
                   <div>
                     {/* <div>Athrav</div> */}
-                    <div className='fw-bold'>Atharva Mane</div> 
+                    <div className='fw-bold'>Atharva Mane</div>
                   </div>
                 </div>
               </div>
@@ -281,6 +287,280 @@ const UserHomePage = () => {
                 </div>
               </div>
             </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+             
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
 
             <div className='col-lg-2 unsoldplayer'>
               <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>

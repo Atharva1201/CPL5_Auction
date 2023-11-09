@@ -5,7 +5,7 @@ const AddTeams = () => {
   return (
     <>
       <div className='main-wrapper d-flex align-items-center justify-content-center'>
-        <div className='admincontainer align col-4 px-5 sm-8 mx-auto p-3 my-5'>
+        <div className='admincontainer align col-4 mt-0 px-5 sm-8 mx-auto p-3 my-5'>
           {' '}
           <h1>Add Teams</h1>
           <Formik>
@@ -95,7 +95,7 @@ const AddTeams = () => {
                 </div>
               </div>
               
-              <div className='text-end mb-4 p-3 '>
+              <div className='text-end py-3 '>
                 <Button
                   variant='btn btn-warning mx-auto'
                   style={{ fontSize: '15px', padding: '6px 40px' }}
