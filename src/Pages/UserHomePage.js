@@ -10,7 +10,8 @@ const UserHomePage = () => {
   const tooltipUnsold = <Tooltip id='tooltip'>Unsold Player List</Tooltip>;
   const data = [
     {
-      headerimg: 'http://raneonkar.com/cpl/auction4.0/img/conan_banner.jpeg',
+      headerimg:
+        'https://media.istockphoto.com/id/1645455800/photo/empty-dark-black-room-background-black-gradient-texture-for-display-your-product.jpg?s=1024x1024&w=is&k=20&c=_uVvUVVz13b861EJDror222ndCe7LxVaot1WObGNN0A=',
       imageSub:
         'https://res.cloudinary.com/dwzmsvp7f/image/fetch/q_75,f_auto/https%3A%2F%2Fmedia.insider.in%2Fimage%2Fupload%2Fc_crop%2Cg_custom%2Fv1679308734%2Fzlktya6v7velm4cd9tmc.png',
       proImage:
@@ -25,7 +26,8 @@ const UserHomePage = () => {
       points: 3600,
     },
     {
-      headerimg: 'http://raneonkar.com/cpl/auction4.0/img/conan_banner.jpeg',
+      headerimg:
+        'https://media.istockphoto.com/id/1645455800/photo/empty-dark-black-room-background-black-gradient-texture-for-display-your-product.jpg?s=1024x1024&w=is&k=20&c=_uVvUVVz13b861EJDror222ndCe7LxVaot1WObGNN0A=',
       imageSub:
         'https://i.pinimg.com/originals/29/2b/d5/292bd5c291ff709c415928ff94454259.png',
       proImage:
@@ -40,7 +42,8 @@ const UserHomePage = () => {
       points: 3600,
     },
     {
-      headerimg: 'http://raneonkar.com/cpl/auction4.0/img/conan_banner.jpeg',
+      headerimg:
+        'https://media.istockphoto.com/id/1645455800/photo/empty-dark-black-room-background-black-gradient-texture-for-display-your-product.jpg?s=1024x1024&w=is&k=20&c=_uVvUVVz13b861EJDror222ndCe7LxVaot1WObGNN0A=',
       imageSub:
         'https://th-i.thgim.com/public/sport/cricket/85u9fe/article30817624.ece/alternates/FREE_1200/rcb',
       proImage:
@@ -55,7 +58,8 @@ const UserHomePage = () => {
       points: 3600,
     },
     {
-      headerimg: 'http://raneonkar.com/cpl/auction4.0/img/conan_banner.jpeg',
+      headerimg:
+        'https://media.istockphoto.com/id/1645455800/photo/empty-dark-black-room-background-black-gradient-texture-for-display-your-product.jpg?s=1024x1024&w=is&k=20&c=_uVvUVVz13b861EJDror222ndCe7LxVaot1WObGNN0A=',
       imageSub:
         'https://i.pinimg.com/originals/c8/e9/e6/c8e9e65d1d2f9d2472dd64a875c5c238.jpg',
       proImage:
@@ -70,7 +74,8 @@ const UserHomePage = () => {
       points: 3600,
     },
     {
-      headerimg: 'http://raneonkar.com/cpl/auction4.0/img/conan_banner.jpeg',
+      headerimg:
+        'https://media.istockphoto.com/id/1645455800/photo/empty-dark-black-room-background-black-gradient-texture-for-display-your-product.jpg?s=1024x1024&w=is&k=20&c=_uVvUVVz13b861EJDror222ndCe7LxVaot1WObGNN0A=',
       imageSub:
         'https://i.pinimg.com/736x/b3/da/e8/b3dae8a78c22f8549e973f64c1c48795.jpg',
       proImage:
@@ -85,7 +90,8 @@ const UserHomePage = () => {
       points: 3600,
     },
     {
-      headerimg: 'http://raneonkar.com/cpl/auction4.0/img/conan_banner.jpeg',
+      headerimg:
+        'https://media.istockphoto.com/id/1645455800/photo/empty-dark-black-room-background-black-gradient-texture-for-display-your-product.jpg?s=1024x1024&w=is&k=20&c=_uVvUVVz13b861EJDror222ndCe7LxVaot1WObGNN0A=',
       imageSub:
         'https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Gujarat_Titans_Logo.svg/1200px-Gujarat_Titans_Logo.svg.png',
       proImage:
@@ -106,7 +112,7 @@ const UserHomePage = () => {
         <a href='#'>
           <a href='#'>
             <img
-              src='https://fontmeme.com/permalink/230927/749938cdb63644fb61a7e28676c598a3.png'
+              src='https://fontmeme.com/temporary/fddac64dbc6be319427a9c2b66f47702.png'
               alt='calligraphy-fonts'
               border='0'
               className='responsiveLogo'
@@ -304,23 +310,6 @@ const UserHomePage = () => {
                 </div>
               </div>
             </div>
-             
-            <div className='col-lg-2 unsoldplayer'>
-              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
-                <div className='text-center gap-2'>
-                  <div>
-                    <img
-                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
-                      className='proImage'
-                    />
-                  </div>
-                  <div>
-                    {/* <div>Athrav</div> */}
-                    <div className='fw-bold'>Atharva Mane</div>
-                  </div>
-                </div>
-              </div>
-            </div>
 
             <div className='col-lg-2 unsoldplayer'>
               <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
@@ -560,7 +549,22 @@ const UserHomePage = () => {
               </div>
             </div>
 
-            
+            <div className='col-lg-2 unsoldplayer'>
+              <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>
+                <div className='text-center gap-2'>
+                  <div>
+                    <img
+                      src='https://cdn.britannica.com/25/222725-050-170F622A/Indian-cricketer-Mahendra-Singh-Dhoni-2011.jpg'
+                      className='proImage'
+                    />
+                  </div>
+                  <div>
+                    {/* <div>Athrav</div> */}
+                    <div className='fw-bold'>Atharva Mane</div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <div className='col-lg-2 unsoldplayer'>
               <div className='mx-2 mb-2 py-3 px-2 shadowcustom bg-body rounded'>

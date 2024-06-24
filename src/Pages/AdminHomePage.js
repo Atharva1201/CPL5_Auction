@@ -17,8 +17,8 @@ function AdminHomePage() {
   return (
     <>
       <div className='text-center  mt-3'>
-        <a href='https://fontmeme.com/calligraphy-fonts/'>
-          <a href='https://fontmeme.com/calligraphy-fonts/'>
+        <a href='#'>
+          <a href='#'>
             <img
               src='https://fontmeme.com/permalink/230927/749938cdb63644fb61a7e28676c598a3.png'
               alt='calligraphy-fonts'
