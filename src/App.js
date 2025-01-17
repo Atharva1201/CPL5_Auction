@@ -19,7 +19,7 @@ function App() {
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ms-auto'>
-              <Nav.Link href='/home'>Home</Nav.Link>
+              <Nav.Link href='/homepage'>Home</Nav.Link>
               {/* <Nav.Link href="#link">Winners</Nav.Link> */}
               <NavDropdown title='Winners' id='basic-nav-dropdown'>
                 <NavDropdown.Item href='#action/3.4 '>
@@ -38,7 +38,15 @@ function App() {
                 </NavDropdown.Item>
                 <NavDropdown.Item href='#action/3.4'>
                   {' '}
-                  Season 5 -
+                  Season 5 - Mighty Bulls
+                </NavDropdown.Item>
+                <NavDropdown.Item href='#action/3.4'>
+                  {' '}
+                  Season 6 - Gully Boys
+                </NavDropdown.Item>
+                <NavDropdown.Item href='#action/3.4'>
+                  {' '}
+                  Season 7 - Kingmaker Boys
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href='#action/3.4'>
@@ -74,6 +82,10 @@ function App() {
                 <NavDropdown.Item href='#' target='_blank'>
                   {' '}
                   CPL 5
+                </NavDropdown.Item>
+                <NavDropdown.Item href='https://cricheroes.com/tournament/966061/celebria-premier-league-6/matches/past-matches' target='_blank'>
+                  {' '}
+                  CPL 6
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href='#action/3.4'>

@@ -1,6 +1,9 @@
 body {
-  background: url('/public/assets/images/lawn1.avif');
-  background-size: full-screen;
+  background: url('/public/assets/images/cricket-stadium-night-background_757538-1041.jpg');
+  /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4pTmF92IfSw_KimwU3rlHi8oY7STzvh-jmrsNcNdg3DObSlO1EBP1btVSKg&s'); */
+  background-size: cover;
+  background-position: bottom;
+  /* filter: blur(); */
 }
 
 

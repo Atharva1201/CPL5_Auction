@@ -9,7 +9,7 @@ import AddTeams from '../Pages/AddTeams'
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route exact path='/home' element={<UserHomePage/>} />
+      <Route exact path='/homepage' element={<UserHomePage/>} />
       <Route exact path='/adminhomepage' element={<AdminHomePage/>} />
       <Route exact path='/adminlogin' element={<AdminLogin/>} />
       <Route exact path='/addnewplayer' element={<AddScreen/>} />
